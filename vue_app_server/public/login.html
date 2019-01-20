@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/jquery-1.11.3.js"></script>
+    <title>用户登录</title>
+    <style>
+        body{position: relative;}
+        #ddd{
+            height: 400px;width: 400px;background: pink;
+            margin: 0 auto;
+            text-align: center;
+        }
+        form{
+            padding-top: 150px;
+        }
+    </style>
+</head>
+<body>
+<div id="ddd">
+    <form action="">
+        用户名称：<input type="text" placeholder="请输入用户名" id="uname"><br>
+        用户密码：<input type="password" placeholder="请输入六位密码" id="upwd"><br>
+        <button id="btn">登录</button>
+    </form>
+    <script>
+    $("#btn").click(function(){
+    var uname=$("#uname").val();
+    var upwd=$("#upwd").val(); 
+    sessionStorage.setItem("uname",uname);
+	$.ajax({
+		url:"http://localhost:3000/login",
+		type:"post",
+		data:{uname,upwd},
+		success:function(res){
+            
+            if(res.code==1){
+            alert(res.msg);
+            location.href="index.html";
+        }else{
+            alert(res.msg);
+        };
+
+		}
+	})
+})
+    </script>
+</div>
+</body>
+</html>

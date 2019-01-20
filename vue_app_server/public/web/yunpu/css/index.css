@@ -1,0 +1,261 @@
+/* 清楚样式 */
+/* line 7, index.less */
+body,
+div,
+p,
+span,
+a,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+input,
+textarea,
+img {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  list-style: none;
+}
+/* line 8, index.less */
+input {
+  outline: none;
+}
+/* line 9, index.less */
+body {
+  font-size: 12px;
+  font-family: "微软雅黑";
+  color: #ffffff;
+}
+/* line 10, index.less */
+a {
+  color: #e25923;
+  text-decoration: none;
+}
+/* line 11, index.less */
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+/* 公用 */
+/* line 14, index.less */
+.fl {
+  float: left;
+}
+/* line 15, index.less */
+.fr {
+  float: right;
+}
+/* line 16, index.less */
+.oh {
+  overflow: hidden;
+}
+/* header */
+/* line 19, index.less */
+.header {
+  background: url(../images/header_bg.jpg);
+}
+/* line 21, index.less */
+.header .headerIn {
+  width: 1000px;
+  height: 76px;
+  margin: 0 auto;
+}
+/* line 25, index.less */
+.header .headerIn h1 {
+  padding-top: 22px;
+  float: left;
+}
+/* line 29, index.less */
+.header .headerIn .nav {
+  float: right;
+}
+/* line 31, index.less */
+.header .headerIn .nav li {
+  height: 76px;
+  line-height: 76px;
+  float: left;
+  padding: 0 20px;
+}
+/* line 36, index.less */
+.header .headerIn .nav li a {
+  color: #ffffff;
+  font-size: 14px;
+  display: block;
+}
+/* line 41, index.less */
+.header .headerIn .nav li:hover {
+  background: url(../images/nac.bg.jpg);
+}
+/* line 45, index.less */
+.header .headerIn .nav .current {
+  background: url(../images/nac.bg.jpg);
+}
+/* line 48, index.less */
+.header .headerIn .nav .spe {
+  width: 70px;
+  height: 20px;
+  line-height: 20px;
+  background: #222222 url(../images/sanjiao.jpg) no-repeat 60px center;
+  margin-top: 30px;
+  padding: 0 0 0 5px;
+}
+/* line 55, index.less */
+.header .headerIn .nav .spe:hover {
+  background: #222;
+}
+/* banner */
+/* line 64, index.less */
+.banner {
+  height: 500px;
+  background: url(../images/banner.jpg) no-repeat top center;
+}
+/* con1 */
+/* line 70, index.less */
+.con1 {
+  background: #f2f2f2;
+}
+/* line 72, index.less */
+.con1 .con1In {
+  width: 1000px;
+  height: 420px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+/* line 81, index.less */
+.con1In .one {
+  height: 31px;
+  width: 1000px;
+  border-bottom: 1px solid #e05a27;
+}
+/* line 85, index.less */
+.con1In .one p {
+  float: left;
+}
+/* line 88, index.less */
+.con1In .one .nav1 {
+  float: right;
+  padding-top: 2px;
+}
+/* line 91, index.less */
+.con1In .one .nav1 li {
+  height: 27px;
+  line-height: 27px;
+  margin-left: 35px;
+  float: left;
+  padding: 0 10px;
+}
+/* line 97, index.less */
+.con1In .one .nav1 li:hover {
+  display: block;
+  background: #e05a27;
+}
+/* line 102, index.less */
+.con1In .one .nav1 .current {
+  background: #e05a27;
+}
+/* line 104, index.less */
+.con1In .one .nav1 .current a {
+  color: #ffffff;
+}
+/* line 108, index.less */
+.con1In .two {
+  width: 983px;
+  height: 193px;
+  padding: 46px 0 0 17px;
+  overflow: hidden;
+}
+/* line 113, index.less */
+.con1In .two a {
+  float: left;
+  margin-right: 15px;
+}
+/* line 118, index.less */
+.con1In .three {
+  overflow: hidden;
+}
+/* line 120, index.less */
+.con1In .three a {
+  float: left;
+}
+/* footer */
+/* line 128, index.less */
+.footer {
+  background: #333;
+}
+/* line 130, index.less */
+.footer .footerIn {
+  width: 1000px;
+  height: 368px;
+  margin: 0 auto;
+}
+/* line 134, index.less */
+.footer .footerIn .left {
+  padding-top: 72px;
+  float: left;
+}
+/* line 137, index.less */
+.footer .footerIn .left h2 {
+  height: 42px;
+}
+/* line 140, index.less */
+.footer .footerIn .left p {
+  height: 110px;
+  line-height: 26px;
+}
+/* line 145, index.less */
+.footer .footerIn .left ul li:nth-of-type(1) {
+  font-size: 14px;
+  height: 28px;
+}
+/* line 148, index.less */
+.footer .footerIn .right {
+  float: right;
+  padding: 119px 78px 0 0;
+}
+/* line 151, index.less */
+.footer .footerIn .right h2 {
+  height: 96px;
+}
+/* line 154, index.less */
+.footer .footerIn .right p {
+  padding-left: 14px;
+  font-size: 14px;
+  font-weight: bold;
+}
+/* footerbar */
+/* line 167, index.less */
+.footerbar {
+  background: #282828;
+}
+/* line 169, index.less */
+.footerbar .footerbarIn {
+  width: 1000px;
+  height: 112px;
+  margin: 0 auto;
+}
+/* line 173, index.less */
+.footerbar .footerbarIn .left {
+  float: left;
+}
+/* line 176, index.less */
+.footerbar .footerbarIn .left ul {
+  padding-top: 20px;
+  height: 12px;
+}
+/* line 179, index.less */
+.footerbar .footerbarIn .left ul li {
+  float: left;
+  margin-right: 10px;
+}
+/* line 185, index.less */
+.footerbar .footerbarIn .right {
+  float: right;
+  padding-top: 28px;
+}

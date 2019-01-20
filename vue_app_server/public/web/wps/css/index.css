@@ -1,0 +1,359 @@
+body,
+div,
+p,
+span,
+a,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+input,
+textarea,
+img {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  list-style: none;
+}
+input {
+  outline: none;
+}
+body {
+  font-size: 12px;
+  font-family: "微软雅黑";
+  color: #666666;
+}
+a {
+  color: #666666;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.oh {
+  overflow: hidden;
+}
+/* header */
+.header {
+  height: 39px;
+  border-bottom: 1px solid #DEDEDE;
+}
+.header .headerIn {
+  margin: 0 auto;
+  width: 980px;
+}
+.header .headerIn ul {
+  height: 13px;
+  width: 230px;
+  margin-top: 13px;
+  line-height: 13px;
+  float: right;
+}
+.header .headerIn ul li {
+  float: left;
+  padding-left: 10px;
+  margin-right: 9px;
+}
+.header .headerIn ul .li01 {
+  background: url(../images/line.png) no-repeat 0 0;
+}
+/* nav */
+.nav {
+  height: 89px;
+}
+.nav .navIn {
+  margin: 0 auto;
+  width: 980px;
+}
+.nav .navIn h1 {
+  float: left;
+  width: 162px;
+  height: 46px;
+  margin-top: 26px;
+}
+.nav .navIn ul {
+  float: right;
+  width: 570px;
+  margin-top: 38px;
+}
+.nav .navIn li {
+  float: left;
+  margin-right: 33px;
+}
+.nav .navIn li a:hover {
+  text-decoration: none;
+}
+.nav .navIn .cur {
+  padding-right: 10px;
+  background: url(../images/nav_arrow.png) no-repeat right center;
+  margin-right: 38px;
+}
+.nav .navIn .liRed a {
+  color: #FC3358;
+}
+/* banner */
+.banner {
+  height: 416px;
+  text-align: center;
+}
+.con1 {
+  margin-top: 50px;
+  height: 410px;
+  overflow: hidden;
+}
+.con1 .con1In {
+  width: 980px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.con1 .con1In .up {
+  height: 34px;
+  overflow: hidden;
+}
+.con1 .con1In .up h3 {
+  color: #232323;
+  font-size: 14px;
+  float: left;
+  font-weight: normal;
+}
+.con1 .con1In .up span {
+  float: right;
+  padding-left: 21px;
+  line-height: 15px;
+  background: url(../images/more.png) no-repeat 0 0;
+}
+.con1 .con1In .up span a {
+  color: #7C7C7C;
+}
+.con1 .con1In ul {
+  width: 1100px;
+  overflow: hidden;
+}
+.con1 .con1In li {
+  margin: 0 49px 40px 0;
+  float: left;
+}
+.con1 .con1In li img {
+  display: block;
+}
+/* con2 */
+.con2 .con2In {
+  width: 980px;
+  margin: 0 auto;
+  height: 310px;
+}
+.con2 .con2In .left {
+  height: 309px;
+  border-bottom: 1px dashed #D3D3D3;
+  width: 456px;
+  float: left;
+}
+.con2 .con2In .right {
+  height: 309px;
+  border-bottom: 1px dashed #D3D3D3;
+  width: 456px;
+  float: right;
+}
+.con2 .con2In .up {
+  height: 30px;
+}
+.con2 .con2In .up h3 {
+  color: #232323;
+  font-size: 14px;
+  float: left;
+  font-weight: normal;
+}
+.con2 .con2In .up span {
+  float: right;
+  padding-left: 21px;
+  line-height: 15px;
+  background: url(../images/more.png) no-repeat 0 0;
+  margin-top: 3px;
+  margin-right: 5px;
+}
+.con2 .con2In .up span a {
+  color: #7C7C7C;
+}
+.con2 .con2In p {
+  margin-top: 13px;
+}
+.con2 .con2In p a {
+  color: #3C3C3C;
+  font-weight: bold;
+}
+/* con3 */
+.con3 {
+  height: 188px;
+  overflow: hidden;
+}
+.con3 .con3In {
+  width: 980px;
+  margin: 0 auto;
+}
+.con3 .con3In .left {
+  width: 456px;
+  float: left;
+}
+.con3 .con3In .right {
+  width: 456px;
+  float: right;
+}
+.con3 .word {
+  float: left;
+  padding-top: 30px;
+}
+.con3 .word li {
+  height: 32px;
+}
+.con3 .word li a {
+  color: #686868;
+}
+.con3 .time {
+  float: right;
+  padding-top: 30px;
+}
+.con3 .time li {
+  height: 32px;
+  color: #B5B5B5;
+}
+/* footer */
+.footer {
+  background: #F6F6F6;
+  height: 421px;
+  overflow: hidden;
+}
+.footer .footerIn {
+  width: 956px;
+  margin: 0 auto;
+}
+.footer .footerIn .up {
+  height: 190px;
+  border-bottom: 1px solid #DBD8D8;
+}
+.footer .footerIn .down {
+  height: 220px;
+  padding-top: 10px;
+}
+.footer .dl01 {
+  margin-top: 38px;
+  width: 275px;
+  padding-left: 3px;
+  border: 0;
+  float: left;
+}
+.footer .dl01 dt {
+  padding-top: 26px;
+  background: url(../images/sekuai.png) no-repeat 0 0;
+  height: 30px;
+}
+.footer .dl01 dd {
+  padding-left: 38px;
+  background: url(../images/tel.png) no-repeat 2px top;
+}
+.footer .dl01 dd p {
+  height: 20px;
+  line-height: 15px;
+}
+.footer .dl02 {
+  width: 139px;
+  height: 120px;
+  margin-top: 35px;
+  padding-top: 10px;
+  border-left: 1px dashed #ccc;
+  padding-left: 20px;
+  color: #78797D;
+  float: left;
+}
+.footer .dl02 dt {
+  height: 20px;
+  font-weight: bold;
+}
+.footer .dl02 dd {
+  line-height: 24px;
+}
+.down01 {
+  height: 96px;
+}
+.down01 .hezuo {
+  height: 40px;
+  line-height: 20px;
+  float: left;
+}
+.down01 .hezuo dt {
+  font-weight: bold;
+  height: 20px;
+}
+.down01 .hezuo dd {
+  float: left;
+  margin-right: 7px;
+  padding-left: 5px;
+  height: 20px;
+}
+.down01 .ziti {
+  width: 137px;
+  float: right;
+}
+.down01 .ziti a:hover {
+  text-decoration: none;
+}
+.down01 .ziti dt {
+  height: 22px;
+  line-height: 22px;
+  background: #c0cad3 url(../images/footer_arrow.png) no-repeat 120px center;
+  margin-bottom: 1px;
+  padding-left: 14px;
+}
+.down01 .ziti dt a {
+  color: #fff;
+}
+.down01 .ziti dd {
+  height: 22px;
+  line-height: 22px;
+  border: 1px solid #CCCDCF;
+  padding-left: 14px;
+  display: none;
+}
+.down01 .ziti dd a {
+  width: 137px;
+  height: 22px;
+  display: block;
+}
+.down01 .ziti dd a:hover {
+  width: 123px;
+  height: 22px;
+  display: block;
+  background: #C0CAD3;
+  margin-left: -14px;
+  padding-left: 14px;
+  color: #fff;
+}
+.down02 {
+  text-align: center;
+  line-height: 22px;
+  height: 124px;
+}
+.down02 p {
+  width: 450px;
+  margin-left: 260px;
+}
+.down02 p a {
+  margin: 0 10px;
+}
+.down02 .img {
+  margin-top: 10px;
+}
+.down02 .img a {
+  margin: 0 5px;
+}
